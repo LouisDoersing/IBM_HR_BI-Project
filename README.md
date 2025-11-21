@@ -51,5 +51,4 @@ Example attributes include:
 
 ---
 
-## 📂 Project Structure (planned)
 
