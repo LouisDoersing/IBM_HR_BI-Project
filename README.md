@@ -24,9 +24,9 @@ Additional statistical tests, model development, and documentation are being add
 - **Clean and Prepare Data**  
   Handle missing values, format variables, encode categories, and create new features.
 - **Conduct Statistical Tests**  
-  Chi-square tests, t-tests, Spearman correlations, hypothesis testing on attrition factors.
+  hypothesis testing on attrition factors.
 - **Build Predictive Machine Learning Models**  
-  Train and evaluate classifiers such as Logistic Regression, Random Forest, and XGBoost.
+  Train and evaluate classifiers such as Logistic Regression and XGBoost.
 - **Visualize Insights**  
   Create heatmaps, bar plots, attrition rate charts, and other visualizations.
 
@@ -50,5 +50,9 @@ Example attributes include:
 - Attrition (Yes/No)
 
 ---
+##Model-Developement:
+XGBoost using Optuna Hyperparameter-tuning and feature importance
 
+**Model conclusion (Compare Base Model and tuned-Model):**
+The Optuna-optimized XGBoost model delivers the best results for attrition prediction. Despite lower accuracy, it identifies significantly more at-risk employees thanks to a significantly higher recall rate. This is crucial when HR data is unbalanced, as accuracy hardly reflects the rare but business-critical attrition class. The model thus offers the greatest practical benefit as an early warning system for identifying at-risk employees.
 
